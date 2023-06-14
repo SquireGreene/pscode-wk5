@@ -1,0 +1,52 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+Set variables - number1, number2, sum
+Print "Input your first number:"
+Input number1
+Print "Input your second number:"
+Input number2
+number1 + number2 = sum
+Print "Your total is (sum)."
+End
+
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Set variables - number, sum
+Print "Input your number:"
+number/2 = sum
+If sum = int, Print "Your number is even!", "Your number is odd!"
+End
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+Set variables - number1, number2, number3, number4, number5, sum, average, smallest, largest
+Print "Input number1:"
+Print "Input number2:"
+Print "Input number3:"
+Print "Input number4:"
+Print "Input number5:"
+average = (number1 + number2 + number3 + number4 + number5)/5
+If number1 >= number2, number1 = largest, ELSE number2 = largest
+If number3 >= largest, number3 = largest, ELSE largest = largest
+If number4 >= largest, number4 = largest, ELSE largest = largest
+If number5 >= largest, number5 = largest, ELSE largest = largest
+
+If number1 <= number2, number1 = smallest, ELSE number2 = smallest
+If number2 <= smallest, number2 = smallest, ELSE smallest = smallest
+If number3 <= smallest, number3 = smallest, ELSE smallest = smallest
+If number4 <= smallest, number4 = smallest, ELSE smallest = smallest 
+
+Print " The average of your number is (average). The largest number is (largest) and the smallest number is (smallest)."
+
+
+
+-- END --
